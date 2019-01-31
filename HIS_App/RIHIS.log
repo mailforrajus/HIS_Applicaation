@@ -1,0 +1,307 @@
+2019-Jan-30 09:32:41.138 INFO  c.h.HealthInsuranceApplication - Starting HealthInsuranceApplication on DESKTOP-FT8U7A7 with PID 10584 (G:\Ashok\workspace\HIS_App\target\classes started by Hello in G:\Ashok\workspace\HIS_App)
+2019-Jan-30 09:32:41.170 INFO  c.h.HealthInsuranceApplication - No active profile set, falling back to default profiles: default
+2019-Jan-30 09:32:41.223 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-Jan-30 09:32:41.223 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-Jan-30 09:32:42.080 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-Jan-30 09:32:42.150 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63ms. Found 1 repository interfaces.
+2019-Jan-30 09:32:42.541 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2c1ce85a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Jan-30 09:32:43.008 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2019-Jan-30 09:32:43.033 INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2019-Jan-30 09:32:43.034 INFO  o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-Jan-30 09:32:43.042 INFO  o.a.c.c.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_201\bin;C:\apache-maven-3.6.0\bin;C:\Users\Hello\AppData\Local\Microsoft\WindowsApps;;G:\Ashok\Softwares\spring-tool-suite-3.9.6.RELEASE-e4.9.0-win32-x86_64\sts-bundle\sts-3.9.6.RELEASE;;.]
+2019-Jan-30 09:32:43.934 INFO  o.a.j.s.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-Jan-30 09:32:43.939 INFO  o.a.c.c.C.[.[.[/HIS] - Initializing Spring embedded WebApplicationContext
+2019-Jan-30 09:32:44.117 INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2019-Jan-30 09:32:44.118 WARN  c.z.h.u.DriverDataSource - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2019-Jan-30 09:32:44.294 INFO  c.z.h.p.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-Jan-30 09:32:44.298 INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2019-Jan-30 09:32:45.638 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-Jan-30 09:32:45.730 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-Jan-30 09:32:46.414 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-Jan-30 09:32:46.455 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-Jan-30 09:32:46.529 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-Jan-30 09:32:46.842 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/HIS'
+2019-Jan-30 09:32:46.846 INFO  c.h.HealthInsuranceApplication - Started HealthInsuranceApplication in 6.129 seconds (JVM running for 11.3)
+2019-Jan-30 09:32:59.022 INFO  o.a.c.c.C.[.[.[/HIS] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-Jan-30 09:32:59.087 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 09:32:59.087 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 09:35:49.030 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-Jan-30 09:35:49.031 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-Jan-30 09:35:49.036 INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-Jan-30 09:35:49.048 INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-Jan-30 09:35:49.591 INFO  c.h.HealthInsuranceApplication - Starting HealthInsuranceApplication on DESKTOP-FT8U7A7 with PID 10584 (G:\Ashok\workspace\HIS_App\target\classes started by Hello in G:\Ashok\workspace\HIS_App)
+2019-Jan-30 09:35:49.591 INFO  c.h.HealthInsuranceApplication - No active profile set, falling back to default profiles: default
+2019-Jan-30 09:35:49.886 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-Jan-30 09:35:49.899 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 1 repository interfaces.
+2019-Jan-30 09:35:49.980 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2c1ce85a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Jan-30 09:35:50.139 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2019-Jan-30 09:35:50.140 INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2019-Jan-30 09:35:50.140 INFO  o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-Jan-30 09:35:50.356 INFO  o.a.j.s.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-Jan-30 09:35:50.360 INFO  o.a.c.c.C.[.[.[/HIS] - Initializing Spring embedded WebApplicationContext
+2019-Jan-30 09:35:50.577 INFO  c.z.h.HikariDataSource - HikariPool-2 - Starting...
+2019-Jan-30 09:35:50.580 WARN  c.z.h.u.DriverDataSource - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2019-Jan-30 09:35:50.605 INFO  c.z.h.p.PoolBase - HikariPool-2 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-Jan-30 09:35:50.607 INFO  c.z.h.HikariDataSource - HikariPool-2 - Start completed.
+2019-Jan-30 09:35:50.785 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-Jan-30 09:35:50.818 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-Jan-30 09:35:51.012 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-Jan-30 09:35:51.022 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-Jan-30 09:35:51.061 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-Jan-30 09:35:51.123 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/HIS'
+2019-Jan-30 09:35:51.124 INFO  c.h.HealthInsuranceApplication - Started HealthInsuranceApplication in 1.573 seconds (JVM running for 195.578)
+2019-Jan-30 09:35:51.127 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-Jan-30 09:36:06.090 INFO  o.a.c.c.C.[.[.[/HIS] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-Jan-30 09:36:40.088 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 09:36:40.089 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 09:41:27.137 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-Jan-30 09:41:27.140 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-Jan-30 09:41:27.143 INFO  c.z.h.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2019-Jan-30 09:41:27.161 INFO  c.z.h.HikariDataSource - HikariPool-2 - Shutdown completed.
+2019-Jan-30 09:41:27.660 INFO  c.h.HealthInsuranceApplication - Starting HealthInsuranceApplication on DESKTOP-FT8U7A7 with PID 10584 (G:\Ashok\workspace\HIS_App\target\classes started by Hello in G:\Ashok\workspace\HIS_App)
+2019-Jan-30 09:41:27.661 INFO  c.h.HealthInsuranceApplication - No active profile set, falling back to default profiles: default
+2019-Jan-30 09:41:27.880 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-Jan-30 09:41:27.891 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 1 repository interfaces.
+2019-Jan-30 09:41:27.940 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2c1ce85a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Jan-30 09:41:28.065 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2019-Jan-30 09:41:28.066 INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2019-Jan-30 09:41:28.066 INFO  o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-Jan-30 09:41:28.135 INFO  o.a.j.s.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-Jan-30 09:41:28.137 INFO  o.a.c.c.C.[.[.[/HIS] - Initializing Spring embedded WebApplicationContext
+2019-Jan-30 09:41:28.202 INFO  c.z.h.HikariDataSource - HikariPool-3 - Starting...
+2019-Jan-30 09:41:28.202 WARN  c.z.h.u.DriverDataSource - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2019-Jan-30 09:41:28.218 INFO  c.z.h.p.PoolBase - HikariPool-3 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-Jan-30 09:41:28.219 INFO  c.z.h.HikariDataSource - HikariPool-3 - Start completed.
+2019-Jan-30 09:41:28.298 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-Jan-30 09:41:28.321 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-Jan-30 09:41:28.502 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-Jan-30 09:41:28.509 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-Jan-30 09:41:28.541 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-Jan-30 09:41:28.595 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/HIS'
+2019-Jan-30 09:41:28.596 INFO  c.h.HealthInsuranceApplication - Started HealthInsuranceApplication in 0.967 seconds (JVM running for 533.05)
+2019-Jan-30 09:41:28.598 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-Jan-30 09:41:31.503 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2019-Jan-30 09:41:31.506 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-Jan-30 09:41:31.507 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-Jan-30 09:41:31.508 INFO  c.z.h.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2019-Jan-30 09:41:31.515 INFO  c.z.h.HikariDataSource - HikariPool-3 - Shutdown completed.
+2019-Jan-30 09:56:16.335 INFO  c.h.HealthInsuranceApplication - Starting HealthInsuranceApplication on DESKTOP-FT8U7A7 with PID 10808 (G:\Ashok\workspace\HIS_App\target\classes started by Hello in G:\Ashok\workspace\HIS_App)
+2019-Jan-30 09:56:16.338 INFO  c.h.HealthInsuranceApplication - No active profile set, falling back to default profiles: default
+2019-Jan-30 09:56:16.388 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-Jan-30 09:56:16.388 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-Jan-30 09:56:17.176 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-Jan-30 09:56:17.255 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70ms. Found 1 repository interfaces.
+2019-Jan-30 09:56:17.664 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c3043a89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Jan-30 09:56:18.090 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2019-Jan-30 09:56:18.113 INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2019-Jan-30 09:56:18.113 INFO  o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-Jan-30 09:56:18.122 INFO  o.a.c.c.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_201\bin;C:\apache-maven-3.6.0\bin;C:\Users\Hello\AppData\Local\Microsoft\WindowsApps;;G:\Ashok\Softwares\spring-tool-suite-3.9.6.RELEASE-e4.9.0-win32-x86_64\sts-bundle\sts-3.9.6.RELEASE;;.]
+2019-Jan-30 09:56:18.506 INFO  o.a.j.s.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-Jan-30 09:56:18.514 INFO  o.a.c.c.C.[.[.[/HIS] - Initializing Spring embedded WebApplicationContext
+2019-Jan-30 09:56:18.750 INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2019-Jan-30 09:56:18.751 WARN  c.z.h.u.DriverDataSource - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2019-Jan-30 09:56:18.905 INFO  c.z.h.p.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-Jan-30 09:56:18.911 INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2019-Jan-30 09:56:20.136 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-Jan-30 09:56:20.183 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-Jan-30 09:56:20.844 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-Jan-30 09:56:20.887 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-Jan-30 09:56:20.962 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-Jan-30 09:56:21.124 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/HIS'
+2019-Jan-30 09:56:21.128 INFO  c.h.HealthInsuranceApplication - Started HealthInsuranceApplication in 5.199 seconds (JVM running for 6.146)
+2019-Jan-30 09:56:25.677 INFO  o.a.c.c.C.[.[.[/HIS] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-Jan-30 09:56:25.728 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 09:56:25.729 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 09:56:46.131 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 09:56:46.132 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 09:58:00.045 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 09:58:00.046 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 09:58:02.118 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 09:58:02.119 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 09:58:02.374 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 09:58:02.375 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 09:58:02.552 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 09:58:02.553 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 10:03:29.921 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-Jan-30 10:03:29.925 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-Jan-30 10:03:29.934 INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-Jan-30 10:03:29.949 INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-Jan-30 10:03:30.582 INFO  c.h.HealthInsuranceApplication - Starting HealthInsuranceApplication on DESKTOP-FT8U7A7 with PID 10808 (G:\Ashok\workspace\HIS_App\target\classes started by Hello in G:\Ashok\workspace\HIS_App)
+2019-Jan-30 10:03:30.583 INFO  c.h.HealthInsuranceApplication - No active profile set, falling back to default profiles: default
+2019-Jan-30 10:03:30.858 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-Jan-30 10:03:30.873 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 1 repository interfaces.
+2019-Jan-30 10:03:30.935 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c3043a89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Jan-30 10:03:31.148 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2019-Jan-30 10:03:31.149 INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2019-Jan-30 10:03:31.149 INFO  o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-Jan-30 10:03:31.287 INFO  o.a.j.s.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-Jan-30 10:03:31.289 INFO  o.a.c.c.C.[.[.[/HIS] - Initializing Spring embedded WebApplicationContext
+2019-Jan-30 10:03:31.373 INFO  c.z.h.HikariDataSource - HikariPool-2 - Starting...
+2019-Jan-30 10:03:31.374 WARN  c.z.h.u.DriverDataSource - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2019-Jan-30 10:03:31.397 INFO  c.z.h.p.PoolBase - HikariPool-2 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-Jan-30 10:03:31.399 INFO  c.z.h.HikariDataSource - HikariPool-2 - Start completed.
+2019-Jan-30 10:03:31.694 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-Jan-30 10:03:31.729 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-Jan-30 10:03:32.053 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-Jan-30 10:03:32.066 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-Jan-30 10:03:32.109 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-Jan-30 10:03:32.181 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/HIS'
+2019-Jan-30 10:03:32.182 INFO  c.h.HealthInsuranceApplication - Started HealthInsuranceApplication in 1.642 seconds (JVM running for 437.201)
+2019-Jan-30 10:03:32.188 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-Jan-30 10:03:49.367 INFO  o.a.c.c.C.[.[.[/HIS] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-Jan-30 10:03:49.379 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 10:03:49.379 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 10:04:13.007 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 10:04:13.008 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 10:04:24.403 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 10:04:24.403 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 10:05:18.564 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 10:05:18.565 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 10:05:35.926 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 10:05:35.927 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 10:08:24.628 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-Jan-30 10:08:24.629 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-Jan-30 10:08:24.630 INFO  c.z.h.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2019-Jan-30 10:08:24.639 INFO  c.z.h.HikariDataSource - HikariPool-2 - Shutdown completed.
+2019-Jan-30 10:08:25.161 INFO  c.h.HealthInsuranceApplication - Starting HealthInsuranceApplication on DESKTOP-FT8U7A7 with PID 10808 (G:\Ashok\workspace\HIS_App\target\classes started by Hello in G:\Ashok\workspace\HIS_App)
+2019-Jan-30 10:08:25.162 INFO  c.h.HealthInsuranceApplication - No active profile set, falling back to default profiles: default
+2019-Jan-30 10:08:25.382 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-Jan-30 10:08:25.395 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 1 repository interfaces.
+2019-Jan-30 10:08:25.448 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c3043a89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Jan-30 10:08:25.568 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2019-Jan-30 10:08:25.569 INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2019-Jan-30 10:08:25.570 INFO  o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-Jan-30 10:08:25.643 INFO  o.a.j.s.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-Jan-30 10:08:25.647 INFO  o.a.c.c.C.[.[.[/HIS] - Initializing Spring embedded WebApplicationContext
+2019-Jan-30 10:08:25.706 INFO  c.z.h.HikariDataSource - HikariPool-3 - Starting...
+2019-Jan-30 10:08:25.706 WARN  c.z.h.u.DriverDataSource - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2019-Jan-30 10:08:25.719 INFO  c.z.h.p.PoolBase - HikariPool-3 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-Jan-30 10:08:25.720 INFO  c.z.h.HikariDataSource - HikariPool-3 - Start completed.
+2019-Jan-30 10:08:25.791 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-Jan-30 10:08:25.814 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-Jan-30 10:08:25.984 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-Jan-30 10:08:25.991 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-Jan-30 10:08:26.021 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-Jan-30 10:08:26.072 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/HIS'
+2019-Jan-30 10:08:26.074 INFO  c.h.HealthInsuranceApplication - Started HealthInsuranceApplication in 0.939 seconds (JVM running for 731.094)
+2019-Jan-30 10:08:26.076 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-Jan-30 10:08:43.329 INFO  o.a.c.c.C.[.[.[/HIS] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-Jan-30 10:08:43.338 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 10:08:43.339 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 10:10:50.774 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 10:10:50.775 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 10:11:32.374 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 10:11:32.375 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 10:12:55.903 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 10:12:55.904 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 10:13:37.347 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 10:13:37.348 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 10:14:45.893 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2019-Jan-30 10:14:45.895 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-Jan-30 10:14:45.896 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-Jan-30 10:14:45.897 INFO  c.z.h.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2019-Jan-30 10:14:45.908 INFO  c.z.h.HikariDataSource - HikariPool-3 - Shutdown completed.
+2019-Jan-30 10:14:55.204 INFO  c.h.HealthInsuranceApplication - Starting HealthInsuranceApplication on DESKTOP-FT8U7A7 with PID 8792 (G:\Ashok\workspace\HIS_App\target\classes started by Hello in G:\Ashok\workspace\HIS_App)
+2019-Jan-30 10:14:55.208 INFO  c.h.HealthInsuranceApplication - No active profile set, falling back to default profiles: default
+2019-Jan-30 10:14:55.266 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-Jan-30 10:14:55.267 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-Jan-30 10:14:56.244 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-Jan-30 10:14:56.326 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74ms. Found 1 repository interfaces.
+2019-Jan-30 10:14:56.771 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1dc01467] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Jan-30 10:14:57.235 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2019-Jan-30 10:14:57.259 INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2019-Jan-30 10:14:57.260 INFO  o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-Jan-30 10:14:57.269 INFO  o.a.c.c.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_201\bin;C:\apache-maven-3.6.0\bin;C:\Users\Hello\AppData\Local\Microsoft\WindowsApps;;G:\Ashok\Softwares\spring-tool-suite-3.9.6.RELEASE-e4.9.0-win32-x86_64\sts-bundle\sts-3.9.6.RELEASE;;.]
+2019-Jan-30 10:14:57.564 INFO  o.a.j.s.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-Jan-30 10:14:57.570 INFO  o.a.c.c.C.[.[.[/HIS] - Initializing Spring embedded WebApplicationContext
+2019-Jan-30 10:14:57.777 INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2019-Jan-30 10:14:57.778 WARN  c.z.h.u.DriverDataSource - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2019-Jan-30 10:14:58.029 INFO  c.z.h.p.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-Jan-30 10:14:58.037 INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2019-Jan-30 10:14:59.413 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-Jan-30 10:14:59.464 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-Jan-30 10:15:00.485 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-Jan-30 10:15:00.536 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-Jan-30 10:15:00.628 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-Jan-30 10:15:00.821 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/HIS'
+2019-Jan-30 10:15:00.825 INFO  c.h.HealthInsuranceApplication - Started HealthInsuranceApplication in 6.1 seconds (JVM running for 7.333)
+2019-Jan-30 10:15:06.606 INFO  o.a.c.c.C.[.[.[/HIS] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-Jan-30 10:15:07.209 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 10:15:07.210 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 10:17:31.738 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 10:17:31.739 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 10:18:08.409 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 10:18:08.410 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 10:29:22.286 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 10:29:22.287 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 10:29:25.617 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 10:29:25.617 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 10:29:45.054 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 10:29:45.055 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 10:29:47.318 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 10:29:47.318 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 10:32:38.194 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 10:32:38.195 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 10:34:27.554 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-Jan-30 10:34:27.556 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-Jan-30 10:34:27.565 INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-Jan-30 10:34:27.586 INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-Jan-30 10:34:28.169 INFO  c.h.HealthInsuranceApplication - Starting HealthInsuranceApplication on DESKTOP-FT8U7A7 with PID 8792 (G:\Ashok\workspace\HIS_App\target\classes started by Hello in G:\Ashok\workspace\HIS_App)
+2019-Jan-30 10:34:28.169 INFO  c.h.HealthInsuranceApplication - No active profile set, falling back to default profiles: default
+2019-Jan-30 10:34:28.571 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-Jan-30 10:34:28.586 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 1 repository interfaces.
+2019-Jan-30 10:34:28.672 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1dc01467] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Jan-30 10:34:28.820 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2019-Jan-30 10:34:28.821 INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2019-Jan-30 10:34:28.821 INFO  o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-Jan-30 10:34:28.916 INFO  o.a.j.s.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-Jan-30 10:34:28.920 INFO  o.a.c.c.C.[.[.[/HIS] - Initializing Spring embedded WebApplicationContext
+2019-Jan-30 10:34:28.997 INFO  c.z.h.HikariDataSource - HikariPool-2 - Starting...
+2019-Jan-30 10:34:28.997 WARN  c.z.h.u.DriverDataSource - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2019-Jan-30 10:34:29.013 INFO  c.z.h.p.PoolBase - HikariPool-2 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-Jan-30 10:34:29.014 INFO  c.z.h.HikariDataSource - HikariPool-2 - Start completed.
+2019-Jan-30 10:34:29.109 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-Jan-30 10:34:29.143 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-Jan-30 10:34:29.356 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-Jan-30 10:34:29.367 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-Jan-30 10:34:29.406 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-Jan-30 10:34:29.485 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/HIS'
+2019-Jan-30 10:34:29.487 INFO  c.h.HealthInsuranceApplication - Started HealthInsuranceApplication in 1.374 seconds (JVM running for 1175.996)
+2019-Jan-30 10:34:29.493 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-Jan-30 10:34:46.782 INFO  o.a.c.c.C.[.[.[/HIS] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-Jan-30 10:34:59.491 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-Jan-30 10:34:59.494 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-Jan-30 10:34:59.495 INFO  c.z.h.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2019-Jan-30 10:34:59.506 INFO  c.z.h.HikariDataSource - HikariPool-2 - Shutdown completed.
+2019-Jan-30 10:35:00.098 INFO  c.h.HealthInsuranceApplication - Starting HealthInsuranceApplication on DESKTOP-FT8U7A7 with PID 8792 (G:\Ashok\workspace\HIS_App\target\classes started by Hello in G:\Ashok\workspace\HIS_App)
+2019-Jan-30 10:35:00.099 INFO  c.h.HealthInsuranceApplication - No active profile set, falling back to default profiles: default
+2019-Jan-30 10:35:00.502 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-Jan-30 10:35:00.521 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19ms. Found 1 repository interfaces.
+2019-Jan-30 10:35:00.612 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1dc01467] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-Jan-30 10:35:00.756 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+2019-Jan-30 10:35:00.757 INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2019-Jan-30 10:35:00.757 INFO  o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-Jan-30 10:35:02.232 INFO  o.a.j.s.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-Jan-30 10:35:02.234 INFO  o.a.c.c.C.[.[.[/HIS] - Initializing Spring embedded WebApplicationContext
+2019-Jan-30 10:35:02.300 INFO  c.z.h.HikariDataSource - HikariPool-3 - Starting...
+2019-Jan-30 10:35:02.300 WARN  c.z.h.u.DriverDataSource - Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2019-Jan-30 10:35:02.314 INFO  c.z.h.p.PoolBase - HikariPool-3 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-Jan-30 10:35:02.316 INFO  c.z.h.HikariDataSource - HikariPool-3 - Start completed.
+2019-Jan-30 10:35:02.407 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-Jan-30 10:35:02.430 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-Jan-30 10:35:02.640 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-Jan-30 10:35:02.651 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-Jan-30 10:35:02.693 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-Jan-30 10:35:02.774 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path '/HIS'
+2019-Jan-30 10:35:02.775 INFO  c.h.HealthInsuranceApplication - Started HealthInsuranceApplication in 2.727 seconds (JVM running for 1209.285)
+2019-Jan-30 10:35:02.781 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-Jan-30 10:35:07.033 INFO  o.a.c.c.C.[.[.[/HIS] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-Jan-30 10:35:29.389 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 10:35:29.392 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 10:40:51.594 DEBUG c.h.a.c.ARController - Started CaseWorker Registration Form Display
+2019-Jan-30 10:40:51.595 DEBUG c.h.a.c.ARController - Ended CaseWorker Registration Form Display
+2019-Jan-30 10:47:00.611 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2019-Jan-30 10:47:00.615 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-Jan-30 10:47:00.616 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-Jan-30 10:47:00.618 INFO  c.z.h.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2019-Jan-30 10:47:00.636 INFO  c.z.h.HikariDataSource - HikariPool-3 - Shutdown completed.
